@@ -1,0 +1,24 @@
+.one {
+	background-image: url(https://kartinkin.net/uploads/posts/2021-07/1625533069_18-kartinkin-com-p-fon-obriva-nochyu-krasivie-foni-20.jpg);
+	background-repeat: no-repeat;
+	background-position: cover;
+	background-size:100%;
+	background-position: all;
+	height: 100vh;
+	background-attachment: scroll;
+
+	padding-left: 150px;
+	font-size: 50px;
+	display: flex;
+	align-items: center;
+}
+
+.ona {
+	color: lightblue;
+	transition: 1s;
+}
+
+.ona:hover {
+	transform: scale(1.05);
+	text-decoration: underline;
+}

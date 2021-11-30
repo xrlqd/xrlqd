@@ -1,0 +1,56 @@
+* {
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	text-decoration: none;
+}
+header {
+	background: lightblue;
+	width: 95%;
+	height: 85px;
+	margin: auto;
+	margin-bottom: -85px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav {
+	width: 550px;
+	font-size: 40px;
+	
+	display: flex;
+	justify-content: space-between;
+
+}
+.bb {
+	transition: 1s;
+}
+footer {
+	color: white;
+	background: black; 
+	width: 100%;
+	height: 100px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+img {
+	border-radius: 40px;
+}
+
+.bb:hover {
+	transform: scale(1.05);
+	text-decoration: underline;
+}
+
+.bobd {
+	transition: 1s;
+}
+
+.bobd:hover {
+	transform: rotate(360deg);
+}
