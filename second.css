@@ -36,6 +36,23 @@
 	background-size: cover;
 }
 
+.b {
+	width: 75px;
+	height: 35px;
+	background: black;
+	margin-right: 120px;
+	margin-left: 120px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border: 4px double black;
+	border-color: white;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	align-items: center;
+}
+
 .nhead {
 	display: flex;
 	flex-wrap: wrap;
